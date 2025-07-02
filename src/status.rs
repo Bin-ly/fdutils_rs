@@ -1,5 +1,5 @@
 // use chrono::{Local, DateTime};
-use clap::ValueEnum;
+// use clap::ValueEnum;
 
 // struct Task {
 //     id: u32,                // 任务id
@@ -33,15 +33,15 @@ use clap::ValueEnum;
 //     Expired,                // "已过期"（自动状态）
 // }
 
-#[derive(Debug, Clone, Copy, PartialEq, ValueEnum)]
-pub enum CloseReason {
-    UserCancelled,    // 用户主动取消
-    Merged,           // 任务被合并
-    Duplicate,        // 重复任务
-    Obsolete,         // 需求已过时
-    NotReproducible,  // 无法复现的问题
-    WontFix,          // 决定不修复
-    Invalid,          // 无效任务/需求
-    DependencyFailed, // 依赖项失败
-    Other,            // 其他原因
-}
+// #[derive(Debug, Clone, Copy, PartialEq, ValueEnum)]
+// pub enum CloseReason {
+//     UserCancelled,    // 用户主动取消
+//     Merged,           // 任务被合并
+//     Duplicate,        // 重复任务
+//     Obsolete,         // 需求已过时
+//     NotReproducible,  // 无法复现的问题
+//     WontFix,          // 决定不修复
+//     Invalid,          // 无效任务/需求
+//     DependencyFailed, // 依赖项失败
+//     Other,            // 其他原因
+// }
